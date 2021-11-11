@@ -70,9 +70,16 @@ def feladat2():
             osszeg+item
     print("A párosok összege",osszeg)
     
+def feladat4():
 
-
-
+    elemszam=int(input("Add meg az elemek számát! :"))
+    szamok=[]
+    for i in range(elemszam):
+        szamok.append(randint(1,50))
+    print(szamok)
+    for i in range(len(szamok)):
+        if szamok[i]%2==0:
+            print(i, "/t")
 
 
 
